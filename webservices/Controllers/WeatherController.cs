@@ -7,8 +7,8 @@ namespace PoC.EasySrvs.WebServices.Controllers
     [Route("api/weather")]
     public class WeatherController : ControllerBase
     {
-        private static readonly string[] Summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-        private static readonly string[] Locations = new[] { "Cocina", "Lavadero", "Cuarto", "Sala", "Comedor", "Dormitorio", "Sala Espera" };
+        private static readonly string[] Summaries = new[] { "Freezing1", "Bracing1", "Chilly1", "Cool1", "Mild1", "Warm1", "Balmy1", "Hot1", "Sweltering1", "Scorching1" };
+        private static readonly string[] Locations = new[] { "Cocina1", "Lavadero1", "Cuarto1", "Sala1", "Comedor1", "Dormitorio1", "SalaEspera1" };
 
         private readonly ILogger<WeatherController> _logger;
         private List<Weather> mData;
