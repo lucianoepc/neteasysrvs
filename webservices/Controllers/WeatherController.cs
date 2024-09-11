@@ -8,7 +8,7 @@ namespace PoC.EasySrvs.WebServices.Controllers
     public class WeatherController : ControllerBase
     {
         private static readonly string[] Summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-        private static readonly string[] Locations = new[] { "Chicken", "Office", "Garage", "Courtyard", "Living Room", "Bedroom", "Laundry Room" };
+        private static readonly string[] Locations = new[] { "Cocina", "Lavadero", "Cuarto", "Sala", "Comedor", "Dormitorio", "Sala Espera" };
 
         private readonly ILogger<WeatherController> _logger;
         private List<Weather> mData;
